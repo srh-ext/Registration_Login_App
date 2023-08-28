@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Add user object class">
-      <change beforePath="$PROJECT_DIR$/src/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/User.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Database class and add user function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +64,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693228516973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add user object class">
+      <created>1693229339995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693229339997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Database class and add user function">
+      <created>1693229379982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693229379982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial structure of the project included diagrams" />
     <MESSAGE value="Renamed forlder" />
     <MESSAGE value="Add user object class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user object class" />
+    <MESSAGE value="Database class and add user function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database class and add user function" />
   </component>
 </project>
