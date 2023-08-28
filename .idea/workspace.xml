@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Database class and add user function">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add function get user by id and by email">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/UserManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/UserManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693229379982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add function get user by id and by email">
+      <created>1693230412991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693230412991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -86,6 +94,7 @@
     <MESSAGE value="Renamed forlder" />
     <MESSAGE value="Add user object class" />
     <MESSAGE value="Database class and add user function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database class and add user function" />
+    <MESSAGE value="add function get user by id and by email" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function get user by id and by email" />
   </component>
 </project>

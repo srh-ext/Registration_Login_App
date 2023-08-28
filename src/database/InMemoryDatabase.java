@@ -26,6 +26,11 @@ public class InMemoryDatabase {
     }
 
     public boolean removeUser(int userId) {
+        for (User user : this.userDatabase) {
+            if (user.getId() == userId) {
+                return this.userDatabase.remove(user);
+            }
+        }
         return false;
     }
 
