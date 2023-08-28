@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Initial structure of the project included diagrams">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagramms/ActivityDiagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/ActivityDiagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagramms/Classdiagram_Register_Login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/Classdiagram_Register_Login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagramms/src/ActivityDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/src/ActivityDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagramms/src/Classdiagram_Register_Login.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/src/Classdiagram_Register_Login.drawio" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Add user object class">
       <change beforePath="$PROJECT_DIR$/src/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +57,20 @@
       <option name="project" value="LOCAL" />
       <updated>1693227542874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed folder">
+      <created>1693228516973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693228516973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial structure of the project included diagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial structure of the project included diagrams" />
+    <MESSAGE value="Renamed forlder" />
+    <MESSAGE value="Add user object class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user object class" />
   </component>
 </project>
