@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration_Login_App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/UserManagment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ExitUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/LoginUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/LogoutUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/RegistrationUI.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="Initial structure of the project included diagrams">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramms/ActivityDiagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/ActivityDiagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramms/Classdiagram_Register_Login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/Classdiagram_Register_Login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramms/src/ActivityDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/src/ActivityDiagram.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramms/src/Classdiagram_Register_Login.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/src/Classdiagram_Register_Login.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Uc7EI47H6QrFY7LOgaCTtErE6V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,6 +39,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/diagramms" />
+      <recent name="$PROJECT_DIR$/diagramms/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1693226903667</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial structure of the project included diagrams">
+      <created>1693227542874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693227542874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial structure of the project included diagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial structure of the project included diagrams" />
   </component>
 </project>
