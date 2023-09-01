@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="project file">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add junit library and folder.">
+      <change afterPath="$PROJECT_DIR$/test/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration_Login_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Login_App.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,44 @@
       <recent name="$PROJECT_DIR$/diagramms" />
       <recent name="$PROJECT_DIR$/diagramms/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FirstTest">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Registration_Login_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.testIfInitialDBIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Registration_Login_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testIfInitialDBIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.testMyFirstMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Registration_Login_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testMyFirstMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.testIfInitialDBIsEmpty" />
+        <item itemvalue="JUnit.FirstTest.testMyFirstMethod" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693552232114</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add junit library and folder.">
+      <created>1693553938717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693553938717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +162,7 @@
     <MESSAGE value="add function get user by id and by email" />
     <MESSAGE value="add user management functions: saveuser and authenticateuser" />
     <MESSAGE value="project file" />
-    <option name="LAST_COMMIT_MESSAGE" value="project file" />
+    <MESSAGE value="add junit library and folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="add junit library and folder." />
   </component>
 </project>
