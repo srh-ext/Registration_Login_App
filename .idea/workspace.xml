@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add test remove user">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="finished removeuser test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" afterDir="false" />
     </list>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693828198960</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished removeuser test">
+      <created>1693828927714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693828927714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +212,7 @@
     <MESSAGE value="first junit tests" />
     <MESSAGE value="renamed test class" />
     <MESSAGE value="add test remove user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test remove user" />
+    <MESSAGE value="finished removeuser test" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished removeuser test" />
   </component>
 </project>

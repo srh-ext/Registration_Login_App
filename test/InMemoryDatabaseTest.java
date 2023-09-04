@@ -26,6 +26,17 @@ public class InMemoryDatabaseTest {
     }
 
     @Test
+    public void testGetUserById() {
+        System.out.println("testGetUserById");
+
+    }
+
+    @Test
+    public void testGetUserByEmail() {
+        System.out.println("testGetUserByEmail");
+    }
+
+    @Test
     public void testRemoveUser() {
         System.out.println("testRemoveUser");
         // Create tmp database
