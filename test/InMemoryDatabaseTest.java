@@ -26,6 +26,27 @@ public class InMemoryDatabaseTest {
     }
 
     public void testRemoveUser() {
+        System.out.println("testRemoveUser");
+        // Create tmp database
+        InMemoryDatabase db = new InMemoryDatabase();
 
+        //User #1
+        User user1 = new User();
+        user1.setId(1);
+        //User #2
+        User user2 = new User();
+        user2.setId(2);
+        //User #3
+        User user3 = new User();
+        user3.setId(3);
+        // Add users to the database
+        db.addUser(user1);
+        db.addUser(user2);
+        db.addUser(user3);
+        // check how many user are in the db.
+        int size = db.getAllUser().size();
+        System.out.println(size + " users added to the database.");
+        // test Remove user
+        boolean isRemoved = db.removeUser(2);
     }
 }
