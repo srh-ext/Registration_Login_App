@@ -2,9 +2,8 @@ import dao.User;
 import database.InMemoryDatabase;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Assert.*;
 
-public class FirstTest {
+public class InMemoryDatabaseTest {
     @Test
     public void testIfInitialDBIsEmpty() {
         System.out.println("testIfInitialDBIsEmpty");
@@ -24,5 +23,9 @@ public class FirstTest {
         db.addUser(user1);
         int size2 = db.getAllUser().size();
         Assert.assertTrue(size2 == 1);
+    }
+
+    public void testRemoveUser() {
+
     }
 }
