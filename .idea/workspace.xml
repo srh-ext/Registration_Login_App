@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add structure for get user tests">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add methods for get user tests">
+      <change afterPath="$PROJECT_DIR$/test/UserManagementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693830544577</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add methods for get user tests">
+      <created>1693832194487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693832194487</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +239,7 @@
     <MESSAGE value="add test remove user" />
     <MESSAGE value="finished removeuser test" />
     <MESSAGE value="add structure for get user tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add structure for get user tests" />
+    <MESSAGE value="add methods for get user tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add methods for get user tests" />
   </component>
 </project>
