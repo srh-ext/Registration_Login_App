@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="renamed test class">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add test remove user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/InMemoryDatabaseTest.java" afterDir="false" />
     </list>
@@ -48,7 +48,7 @@
       <recent name="$PROJECT_DIR$/diagramms/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InMemoryDatabaseTest">
+  <component name="RunManager" selected="JUnit.InMemoryDatabaseTest.testRemoveUser">
     <configuration name="InMemoryDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Registration_Login_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,8 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InMemoryDatabaseTest.testRemoveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Registration_Login_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InMemoryDatabaseTest" />
+      <option name="METHOD_NAME" value="testRemoveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InMemoryDatabaseTest.testRemoveUser" />
         <item itemvalue="JUnit.InMemoryDatabaseTest" />
         <item itemvalue="JUnit.InMemoryDatabaseTest.testIfInitialDBIsEmpty" />
         <item itemvalue="JUnit.InMemoryDatabaseTest.testMyFirstMethod" />
@@ -172,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693827464293</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add test remove user">
+      <created>1693828198959</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693828198960</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,6 +204,7 @@
     <MESSAGE value="add junit library and folder." />
     <MESSAGE value="first junit tests" />
     <MESSAGE value="renamed test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed test class" />
+    <MESSAGE value="add test remove user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test remove user" />
   </component>
 </project>

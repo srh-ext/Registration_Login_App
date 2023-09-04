@@ -25,6 +25,7 @@ public class InMemoryDatabaseTest {
         Assert.assertTrue(size2 == 1);
     }
 
+    @Test
     public void testRemoveUser() {
         System.out.println("testRemoveUser");
         // Create tmp database
@@ -47,6 +48,18 @@ public class InMemoryDatabaseTest {
         int size = db.getAllUser().size();
         System.out.println(size + " users added to the database.");
         // test Remove user
+        System.out.println("Check remove user");
         boolean isRemoved = db.removeUser(2);
+        Assert.assertTrue(isRemoved);
+
+        // check amount of users in the database
+        System.out.println("Check amount of users in the database.");
+        int s = db.getAllUser().size();
+        Assert.assertEquals(s,2);
+
+        // try to find removed user by id
+        System.out.println("Check if removed user can be found.");
+        User removedUser = db.getUser(2);
+        Assert.assertNull(removedUser);
     }
 }
