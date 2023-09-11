@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add abstract UIMenu class; refacted ExitUI">
-      <change afterPath="$PROJECT_DIR$/test/ui/ExitUITest.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add junit tests for exit ui + tested">
+      <change afterPath="$PROJECT_DIR$/test/ui/LoginUITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ui/LogoutUITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LoginUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/LogoutUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LogoutUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/RegistrationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/RegistrationUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Uc7EI47H6QrFY7LOgaCTtErE6V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,8 +60,11 @@
       <recent name="$PROJECT_DIR$/diagramms" />
       <recent name="$PROJECT_DIR$/diagramms/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExitUITest.testSetMenuName">
+  <component name="RunManager" selected="JUnit.Test All">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Registration_Login_App" />
@@ -119,6 +129,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test All" type="JUnit" factoryName="JUnit">
+      <module name="Registration_Login_App" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.Test All" />
+      <item itemvalue="JUnit.ExitUITest.testGetMenuName" />
+      <item itemvalue="JUnit.ExitUITest.testIsExit" />
+      <item itemvalue="JUnit.ExitUITest.testSetMenuName" />
+      <item itemvalue="JUnit.InMemoryDatabaseTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExitUITest.testSetMenuName" />
@@ -264,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694433659787</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add junit tests for exit ui + tested">
+      <created>1694435342332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694435342332</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +320,7 @@
     <MESSAGE value="add structure for UserManagementTest" />
     <MESSAGE value="add menu and menu interface;&#10;add main menu and initial menu logic" />
     <MESSAGE value="add abstract UIMenu class; refacted ExitUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="add abstract UIMenu class; refacted ExitUI" />
+    <MESSAGE value="add junit tests for exit ui + tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="add junit tests for exit ui + tested" />
   </component>
 </project>
