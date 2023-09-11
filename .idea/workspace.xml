@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add structure for UserManagementTest">
-      <change afterPath="$PROJECT_DIR$/src/ui/UIMenuInterface.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add menu and menu interface;&#10;add main menu and initial menu logic">
+      <change afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ExitUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LoginUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LogoutUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LogoutUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/RegistrationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/RegistrationUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenuInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +56,14 @@
       <recent name="$PROJECT_DIR$/diagramms/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Registration_Login_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InMemoryDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Registration_Login_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,16 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryDatabaseTest.testIfInitialDBIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Registration_Login_App" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InMemoryDatabaseTest" />
-      <option name="METHOD_NAME" value="testIfInitialDBIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InMemoryDatabaseTest.testRemoveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Registration_Login_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InMemoryDatabaseTest" />
         <item itemvalue="JUnit.InMemoryDatabaseTest.testGetUserByEmail" />
         <item itemvalue="JUnit.InMemoryDatabaseTest.testGetUserById" />
         <item itemvalue="JUnit.InMemoryDatabaseTest.testRemoveUser" />
-        <item itemvalue="JUnit.InMemoryDatabaseTest" />
-        <item itemvalue="JUnit.InMemoryDatabaseTest.testIfInitialDBIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693832702968</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add menu and menu interface;&#10;add main menu and initial menu logic">
+      <created>1694161957262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694161957262</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +260,7 @@
     <MESSAGE value="add structure for get user tests" />
     <MESSAGE value="add methods for get user tests" />
     <MESSAGE value="add structure for UserManagementTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add structure for UserManagementTest" />
+    <MESSAGE value="add menu and menu interface;&#10;add main menu and initial menu logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add menu and menu interface;&#10;add main menu and initial menu logic" />
   </component>
 </project>
