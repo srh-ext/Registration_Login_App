@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="add junit tests for exit ui + tested">
-      <change afterPath="$PROJECT_DIR$/test/ui/LoginUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ui/LogoutUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="refactored tests and ui classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LoginUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LogoutUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LogoutUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/RegistrationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/RegistrationUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694435342332</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactored tests and ui classes">
+      <created>1694441087654</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694441087654</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +322,7 @@
     <MESSAGE value="add menu and menu interface;&#10;add main menu and initial menu logic" />
     <MESSAGE value="add abstract UIMenu class; refacted ExitUI" />
     <MESSAGE value="add junit tests for exit ui + tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="add junit tests for exit ui + tested" />
+    <MESSAGE value="refactored tests and ui classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored tests and ui classes" />
   </component>
 </project>
