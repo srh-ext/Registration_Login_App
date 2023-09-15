@@ -21,7 +21,7 @@ public class LogoutUITest {
         System.out.println(logoutMenu.getClass().toString());
         Assert.assertTrue(logoutMenu instanceof LogoutUI);
         Assert.assertNotNull(logoutMenu.getMenuName());
-        Assert.assertEquals(logoutMenu.getMenuName(), "Exit");
+        Assert.assertEquals("Logout", logoutMenu.getMenuName());
     }
 
     @Test

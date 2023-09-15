@@ -9,9 +9,9 @@ public class LoginUITest {
     public void testSetMenuName() {
         System.out.println("testSetMenuName");
         UIMenu loginMenu = new LoginUI();
-        Assert.assertEquals(loginMenu.getMenuName(), "Exit");
+        Assert.assertEquals("Login", loginMenu.getMenuName());
         loginMenu.setMenuName("Test");
-        Assert.assertEquals(loginMenu.getMenuName(), "Test");
+        Assert.assertEquals("Test", loginMenu.getMenuName());
     }
 
     @Test

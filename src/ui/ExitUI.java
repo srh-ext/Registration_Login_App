@@ -10,4 +10,8 @@ public class ExitUI extends UIMenu {
     public boolean isExit() {
         return true;
     }
+
+    public void showDialog() {
+
+    }
 }

@@ -5,11 +5,13 @@ import org.junit.Test;
 
 public class RegistrationUITest {
 
+    private static final String MENU_NAME = "Registration";
+
     @Test
     public void testSetMenuName() {
         System.out.println("testSetMenuName");
         UIMenu regMenu = new RegistrationUI();
-        Assert.assertEquals(regMenu.getMenuName(), "Registration");
+        Assert.assertEquals(regMenu.getMenuName(), MENU_NAME);
         regMenu.setMenuName("Test");
         Assert.assertEquals(regMenu.getMenuName(), "Test");
     }
