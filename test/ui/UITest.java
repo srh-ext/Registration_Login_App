@@ -30,12 +30,19 @@ public abstract class UITest {
 
         System.out.println(menu.getClass().toString());
         Assert.assertNotNull(menu.getMenuName());
-        Assert.assertEquals(menu.getMenuName(), "Exit");
+        Assert.assertEquals(menu.getMenuName(), this.menuName);
     }
 
     @Test
     public final void testIsExit() {
         System.out.println("testIsExit");
-        Assert.assertTrue(menu.isExit());
+        System.out.println(menu.getClass().toString());
+        System.out.println(menu.isExit());
+
+        if (this.menu instanceof ExitUI) {
+            Assert.assertTrue(menu.isExit());
+        } else {
+            Assert.assertFalse(menu.isExit());
+        }
     }
 }

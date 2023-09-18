@@ -9,4 +9,6 @@ public class ExitUITest extends UITest {
         super.setMenu(new ExitUI());
         super.setMenuName("Exit");
     }
+
+
 }

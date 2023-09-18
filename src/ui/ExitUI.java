@@ -14,6 +14,4 @@ public class ExitUI extends UIMenu {
     public void showDialog() {
 
     }
-
-    public void getNumbers(){}
 }
