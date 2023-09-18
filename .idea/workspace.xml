@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="tests and abstract class for tests">
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="moved tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ExitUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ui/ExitUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/ExitUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ui/LoginUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/LoginUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ui/LogoutUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/LogoutUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ui/UITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/UITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +64,8 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test All">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Registration_Login_App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExitUITest.testGetMenuName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExitUITest">
+    <configuration name="ExitUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Registration_Login_App" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +75,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.ExitUITest" />
-      <option name="METHOD_NAME" value="testGetMenuName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +112,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Registration_Login_App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.LoginUITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogoutUITest.testGetMenuName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Registration_Login_App" />
       <extension name="coverage">
@@ -143,20 +154,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Test All" />
+      <item itemvalue="JUnit.ExitUITest" />
+      <item itemvalue="JUnit.LoginUITest" />
       <item itemvalue="JUnit.LogoutUITest.testGetMenuName" />
-      <item itemvalue="JUnit.ExitUITest.testGetMenuName" />
       <item itemvalue="JUnit.ExitUITest.testIsExit" />
       <item itemvalue="JUnit.ExitUITest.testSetMenuName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExitUITest" />
+        <item itemvalue="JUnit.LoginUITest" />
         <item itemvalue="JUnit.LogoutUITest.testGetMenuName" />
         <item itemvalue="JUnit.ExitUITest.testSetMenuName" />
         <item itemvalue="JUnit.ExitUITest.testIsExit" />
-        <item itemvalue="JUnit.ExitUITest.testGetMenuName" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694765527985</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="moved tests">
+      <created>1694766020089</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694766020089</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,6 +365,7 @@
     <MESSAGE value="add junit tests for exit ui + tested" />
     <MESSAGE value="refactored tests and ui classes" />
     <MESSAGE value="tests and abstract class for tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests and abstract class for tests" />
+    <MESSAGE value="moved tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved tests" />
   </component>
 </project>

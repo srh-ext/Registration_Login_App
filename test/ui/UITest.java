@@ -5,29 +5,37 @@ import org.junit.Test;
 
 public abstract class UITest {
 
+    private UIMenu menu = null;
+    private String menuName = "Menu";
+
+    public void setMenu(UIMenu menu) {
+        this.menu = menu;
+    }
+
+    public void setMenuName(String menuName) {
+        this.menuName = menuName;
+    }
+
     @Test
     public final void testSetMenuName() {
         System.out.println("testSetMenuName");
-        UIMenu exitMenu = new ExitUI();
-        Assert.assertEquals(exitMenu.getMenuName(), "Exit");
-        exitMenu.setMenuName("Test");
-        Assert.assertEquals(exitMenu.getMenuName(), "Test");
+        Assert.assertEquals(menu.getMenuName(), menuName);
+        menu.setMenuName("Test");
+        Assert.assertEquals(menu.getMenuName(), "Test");
     }
 
     @Test
     public final void testGetMenuName() {
         System.out.println("testGetMenuName");
-        UIMenuInterface exitMenu = new ExitUI();
-        System.out.println(exitMenu.getClass().toString());
-        Assert.assertTrue(exitMenu instanceof ExitUI);
-        Assert.assertNotNull(exitMenu.getMenuName());
-        Assert.assertEquals(exitMenu.getMenuName(), "Exit");
+
+        System.out.println(menu.getClass().toString());
+        Assert.assertNotNull(menu.getMenuName());
+        Assert.assertEquals(menu.getMenuName(), "Exit");
     }
 
     @Test
     public final void testIsExit() {
         System.out.println("testIsExit");
-        UIMenuInterface exitMenu = new ExitUI();
-        Assert.assertTrue(exitMenu.isExit());
+        Assert.assertTrue(menu.isExit());
     }
 }
