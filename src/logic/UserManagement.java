@@ -3,6 +3,8 @@ package logic;
 import dao.User;
 import database.InMemoryDatabase;
 
+import java.sql.Timestamp;
+
 public class UserManagement {
     private InMemoryDatabase database;
 
@@ -11,6 +13,8 @@ public class UserManagement {
     }
 
     public boolean saveUser(User user) {
+        //TODO: set registration date
+        user.setRegistrationDate(new Timestamp(new java.util.Date().getTime()));
         return this.database.addUser(user);
     }
 

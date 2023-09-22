@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class InMemoryDatabase {
 
     private ArrayList<User> userDatabase;
+    private int lastID = 0;
 
     public InMemoryDatabase() {
         this.userDatabase = new ArrayList<>();
@@ -19,7 +20,9 @@ public class InMemoryDatabase {
      */
     public boolean addUser(User user) {
         if (user != null) {
+            user.setId(++lastID);
             //TODO: check if user already exists
+            System.out.println(user.getId());
             return this.userDatabase.add(user);
         }
         return false;
