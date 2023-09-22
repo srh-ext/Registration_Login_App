@@ -1,3 +1,4 @@
+import logic.UserManagement;
 import ui.*;
 
 import java.util.ArrayList;
@@ -7,8 +8,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    private UserManagement userManagement;
     private List<UIMenuInterface> menu;
     public Main() {
+        this.userManagement = new UserManagement();
         //initialize menu list
         menu = new ArrayList<>();
         //add menu options
@@ -41,6 +44,10 @@ public class Main {
             if (menu.get(selectedMenu).isExit()) {
                 break;
             }
+
+
+            menu.get(selectedMenu).setUserManagement(this.userManagement);
+            menu.get(selectedMenu).showDialog();
         }
     }
 }

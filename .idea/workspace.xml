@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="abstract tests">
-      <change afterPath="$PROJECT_DIR$/src/ui/test.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/test.java" afterDir="false" />
+    <list default="true" id="db1906b9-8f77-433b-bf83-b295c73e6d19" name="Changes" comment="test finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ExitUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/ExitUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/ExitUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/LoginUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/LoginUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/LogoutUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/LogoutUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/RegistrationUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/UITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/UITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/RegistrationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/RegistrationUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenuInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695038812553</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test finished">
+      <created>1695045049682</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045049682</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,6 +379,7 @@
     <MESSAGE value="tests and abstract class for tests" />
     <MESSAGE value="moved tests" />
     <MESSAGE value="abstract tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract tests" />
+    <MESSAGE value="test finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="test finished" />
   </component>
 </project>
