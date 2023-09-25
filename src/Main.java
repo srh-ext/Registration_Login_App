@@ -1,5 +1,6 @@
 import logic.UserManagement;
 import ui.*;
+import database.testDatabase;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -24,6 +25,7 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
         main.showMainMenu();
+        //new testDatabase().getConnection();
     }
 
     public void showMainMenu() {
