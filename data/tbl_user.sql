@@ -29,3 +29,7 @@ ALTER TABLE `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+
+
+INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `birthdate`, `registrationDate`, `password`, `sex`, `mailSent`) VALUES (NULL, 'Yuriy', 'Beck', 'yuriy@beck.de', '1986-11-13', CURRENT_TIMESTAMP, '123456', 'male', '0');

@@ -1,3 +1,4 @@
+import database.MySQLDatabase;
 import logic.UserManagement;
 import ui.*;
 import database.testDatabase;
@@ -23,9 +24,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
-        main.showMainMenu();
-        //new testDatabase().getConnection();
+        //Main main = new Main();
+        //main.showMainMenu();
+        MySQLDatabase db = new MySQLDatabase();
+        db.getAllUser();
     }
 
     public void showMainMenu() {
